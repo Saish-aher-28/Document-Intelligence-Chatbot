@@ -1,0 +1,47 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Test cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Session / runtime data (created at runtime, not part of image)
+session_db/
+temp_uploads/
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Git
+.git/
+.gitattributes
+.gitignore
+.agents/
+
+# Real secrets — use .env.example as template, never bake the real .env
+.env
+
+# Docs that aren't needed in the image
+IMPLEMENTATION_REPORT.md
+SETUP.md
+*.md
+
+# ZIP artifacts
+*.zip
+
+# Windows
+Thumbs.db
+desktop.ini
